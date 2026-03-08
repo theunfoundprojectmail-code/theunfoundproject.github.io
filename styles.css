@@ -440,3 +440,13 @@ line-height:1;
   margin: 0 auto;
   border-radius: 10px;
 }
+
+.book-cover-live{
+  width:100%;
+  max-width:320px;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  border-radius:16px;
+  box-shadow:var(--shadow);
+}
