@@ -407,3 +407,27 @@ nav a:hover,
     padding-right: 0;
   }
 }
+.diagram{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:.6rem;
+margin-top:2rem;
+}
+
+.diagram-step{
+width:min(520px,100%);
+padding:1rem 1.3rem;
+text-align:center;
+border-radius:14px;
+background:linear-gradient(180deg,var(--panel) 0%,var(--panel-2) 100%);
+border:1px solid var(--line);
+box-shadow:var(--shadow);
+font-weight:700;
+}
+
+.diagram-arrow{
+font-size:1.4rem;
+color:var(--accent);
+line-height:1;
+}
