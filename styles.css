@@ -443,10 +443,10 @@ line-height:1;
 
 .book-cover-live{
   width:100%;
-  max-width:320px;
+  max-width:420px;
   height:auto;
   display:block;
   margin-left:auto;
-  border-radius:16px;
-  box-shadow:var(--shadow);
+  border-radius:18px;
+  box-shadow:0 25px 60px rgba(0,0,0,.45);
 }
