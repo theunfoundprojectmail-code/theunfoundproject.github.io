@@ -431,3 +431,12 @@ font-size:1.4rem;
 color:var(--accent);
 line-height:1;
 }
+
+.figure img{
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
