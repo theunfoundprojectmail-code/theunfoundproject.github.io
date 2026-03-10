@@ -88,6 +88,13 @@ nav a {
   transition: color 0.2s ease;
 }
 
+nav a.active {
+  color: var(--text);
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+}
+
 nav a:hover,
 .footer-links a:hover,
 .text-link:hover {
@@ -856,11 +863,11 @@ nav a:hover,
   }
 
   nav {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  width: 100%;
-  gap: 0.55rem 0.75rem;
-}
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 0.55rem 0.75rem;
+  }
 
   nav a {
     display: block;
@@ -871,6 +878,13 @@ nav a:hover,
     background: rgba(255, 255, 255, 0.02);
     font-size: 0.9rem;
     line-height: 1.2;
+  }
+
+  nav a.active {
+    border-bottom: none;
+    border-color: rgba(216, 179, 106, 0.35);
+    background: rgba(216, 179, 106, 0.12);
+    color: var(--accent);
   }
 
   .hero,
