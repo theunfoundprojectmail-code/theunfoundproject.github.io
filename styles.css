@@ -734,3 +734,43 @@ nav a:hover,
     grid-template-columns: 1fr;
   }
 }
+
+.case-hero {
+  padding-bottom: 3.5rem;
+}
+
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-top: 1.8rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
+}
+
+.timeline-marker {
+  width: 10px;
+  height: 10px;
+  margin-top: 0.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 6px rgba(216, 179, 106, 0.12);
+}
+
+.timeline-item h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.timeline-item p {
+  margin: 0;
+}
