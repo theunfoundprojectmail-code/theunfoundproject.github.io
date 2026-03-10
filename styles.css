@@ -700,3 +700,37 @@ nav a:hover,
     grid-template-columns: 1fr;
   }
 }
+
+.research-hero {
+  padding-bottom: 3.5rem;
+}
+
+.source-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.source-item {
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.source-item h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.05rem;
+}
+
+.source-item p {
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .source-list {
+    grid-template-columns: 1fr;
+  }
+}
