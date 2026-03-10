@@ -781,3 +781,52 @@ nav a:hover,
     font-size: 2rem;
   }
 }
+
+/* COMPARATIVE ANALYSIS TABLE */
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+.analysis-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 920px;
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
+}
+
+.analysis-table th,
+.analysis-table td {
+  padding: 1rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  vertical-align: top;
+}
+
+.analysis-table th {
+  color: var(--accent);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.analysis-table td {
+  color: var(--text);
+}
+
+.analysis-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.analysis-table a {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.analysis-table a:hover {
+  color: var(--accent);
+}
